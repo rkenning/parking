@@ -12,7 +12,6 @@ year_month_day_seq
 df <- get_events_detail(year_month_day_seq[1], year_month_day_seq[2])
 df2 <- NA
 
-year_month_day_seq[1]
 
 for (ymd in 2:length(year_month_day_seq)-1) {
   paste0(c("Processing : ", year_month_day_seq[ymd],"-" ,  year_month_day_seq[ymd+1])) %>%
